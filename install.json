@@ -11,25 +11,18 @@
             "btrfs": [],
             "flags": ["Boot"],
             "fs_type": "fat32",
-            "length": {
+            "size": {
               "sector_size": null,
-              "total_size": null,
-              "unit": "B",
-              "value": 99982592
+              "unit": "MiB",
+              "value": 512
             },
             "mount_options": [],
             "mountpoint": "/boot",
-            "obj_id": "369f31a8-2781-4d6b-96e7-75680552b7c9",
+            "obj_id": "2c3fa2d5-2c79-4fab-86ec-22d0ea1543c0",
             "start": {
-              "sector_size": {
-                "sector_size": null,
-                "total_size": null,
-                "unit": "B",
-                "value": 512
-              },
-              "total_size": null,
-              "unit": "sectors",
-              "value": 34
+              "sector_size": null,
+              "unit": "MiB",
+              "value": 1
             },
             "status": "create",
             "type": "primary"
