@@ -11,58 +11,25 @@
             "btrfs": [],
             "flags": ["Boot"],
             "fs_type": "fat32",
-            "size": {
+            "length": {
               "sector_size": null,
-              "unit": "MiB",
-              "value": 512
+              "total_size": null,
+              "unit": "B",
+              "value": 99982592
             },
             "mount_options": [],
             "mountpoint": "/boot",
-            "obj_id": "2c3fa2d5-2c79-4fab-86ec-22d0ea1543c0",
+            "obj_id": "369f31a8-2781-4d6b-96e7-75680552b7c9",
             "start": {
-              "sector_size": null,
-              "unit": "MiB",
-              "value": 1
-            },
-            "status": "create",
-            "type": "primary"
-          },
-          {
-            "btrfs": [],
-            "flags": [],
-            "fs_type": "ext4",
-            "size": {
-              "sector_size": null,
-              "unit": "GiB",
-              "value": 20
-            },
-            "mount_options": [],
-            "mountpoint": "/",
-            "obj_id": "3e7018a0-363b-4d05-ab83-8e82d13db208",
-            "start": {
-              "sector_size": null,
-              "unit": "MiB",
-              "value": 513
-            },
-            "status": "create",
-            "type": "primary"
-          },
-          {
-            "btrfs": [],
-            "flags": [],
-            "fs_type": "ext4",
-            "size": {
-              "sector_size": null,
-              "unit": "Percent",
-              "value": 100
-            },
-            "mount_options": [],
-            "mountpoint": "/home",
-            "obj_id": "ce58b139-f041-4a06-94da-1f8bad775d3f",
-            "start": {
-              "sector_size": null,
-              "unit": "GiB",
-              "value": 20
+              "sector_size": {
+                "sector_size": null,
+                "total_size": null,
+                "unit": "B",
+                "value": 512
+              },
+              "total_size": null,
+              "unit": "sectors",
+              "value": 34
             },
             "status": "create",
             "type": "primary"
