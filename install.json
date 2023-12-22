@@ -1,0 +1,15 @@
+{
+  "archinstall-language": "English",
+  "config_version": "2.6.0",
+  "debug": true,
+  "bootloader": "Systemd-boot",
+  "hostname": "vgevorgyan",
+  "kernels": ["linux"],
+  "locale_config": {
+    "kb_layout": "us",
+    "sys_enc": "UTF-8",
+    "sys_lang": "en_US"
+  },
+  "swap": true,
+  "timezone": "Asia/Yerevan"
+}
