@@ -39,7 +39,7 @@
             },
             "mount_options": [],
             "mountpoint": "/",
-            "obj_id": "2c3fa3d5-2c79-4fab-86ec-22d0ea1543c0",
+            "obj_id": "d712357f-97cc-40f8-a095-24ff244d4539",
             "start": {
               "sector_size": { "unit": "B", "value": 512 },
               "unit": "MiB",
@@ -50,6 +50,10 @@
             "dev_path": null
           }
         ],
+        "disk_encryption": {
+          "encryption_type": "luks",
+          "partitions": ["d712357f-97cc-40f8-a095-24ff244d4539"]
+        },
         "wipe": true
       }
     ]
