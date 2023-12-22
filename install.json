@@ -1,6 +1,7 @@
 {
   "archinstall-language": "English",
   "config_version": "2.6.0",
+  "version": "2.6.0",
   "disk_config": {
     "config_type": "pre_mounted_config",
     "mountpoint": "/mnt"
