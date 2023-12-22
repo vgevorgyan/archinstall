@@ -25,7 +25,8 @@
               "value": 1
             },
             "status": "create",
-            "type": "primary"
+            "type": "primary",
+            "dev_path": null
           }
         ],
         "wipe": true
