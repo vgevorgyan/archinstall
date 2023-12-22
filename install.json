@@ -43,7 +43,7 @@
             "start": {
               "sector_size": { "unit": "B", "value": 512 },
               "unit": "MiB",
-              "value": 1050625
+              "value": 513
             },
             "status": "create",
             "type": "primary",
