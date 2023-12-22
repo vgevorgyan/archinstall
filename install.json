@@ -1,12 +1,11 @@
 {
   "archinstall-language": "English",
-  "config_version": "2.6.0",
-  "version": "2.6.0",
+  "config_version": "2.5.2",
   "disk_config": {
     "config_type": "pre_mounted_config",
     "mountpoint": "/mnt"
   },
-  "audio_config": "pipewire",
+  "audio_config": { "audio": "pipewire" },
   "additional-repositories": ["multilib"],
   "debug": true,
   "bootloader": "Systemd-boot",
