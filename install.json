@@ -95,7 +95,7 @@
   },
   "ntp": false,
   "offline": false,
-  "package_config": {
+  "profile_config": {
     "gfx_driver": "All open-source",
     "greeter": "ly",
     "profile": {
