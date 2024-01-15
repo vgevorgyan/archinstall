@@ -1,5 +1,10 @@
 {
+  "additional-repositories": ["multilib"],
   "archinstall-language": "English",
+  "audio_config": {
+    "audio": "pipewire"
+  },
+  "bootloader": "Systemd-boot",
   "config_version": "2.5.2",
   "disk_config": {
     "config_type": "default_layout",
@@ -58,10 +63,6 @@
       }
     ]
   },
-  "audio_config": { "audio": "pipewire" },
-  "additional-repositories": ["multilib"],
-  "debug": true,
-  "bootloader": "Systemd-boot",
   "hostname": "vgevorgyan",
   "kernels": ["linux"],
   "locale_config": {
@@ -69,6 +70,27 @@
     "sys_enc": "UTF-8",
     "sys_lang": "en_US"
   },
+  "network_config": {
+    "type": "nm"
+  },
+  "ntp": false,
+  "offline": false,
+  "package_config": {
+    "gfx_driver": "All open-source",
+    "greeter": "ly",
+    "profile": {
+      "custom_settings": {
+        "Sway": {
+          "seat_access": "polkit"
+      },
+        "details": ["Sway"],
+        "main": "Desktop"
+    },
+  },
+    "skip_ntp": true,
+    "skip_version_check": false,
+    "uki":false,
+  "no_pkg_lookups": false,
   "swap": true,
   "timezone": "Asia/Yerevan"
 }
