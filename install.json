@@ -1,5 +1,7 @@
 {
-  "additional-repositories": ["multilib"],
+  "additional-repositories": [
+    "multilib"
+  ],
   "archinstall-language": "English",
   "audio_config": {
     "audio": "pipewire"
@@ -14,10 +16,15 @@
         "partitions": [
           {
             "btrfs": [],
-            "flags": ["Boot"],
+            "flags": [
+              "Boot"
+            ],
             "fs_type": "fat32",
             "size": {
-              "sector_size": { "unit": "B", "value": 512 },
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
               "unit": "MiB",
               "value": 512
             },
@@ -25,7 +32,10 @@
             "mountpoint": "/boot",
             "obj_id": "2c3fa2d5-2c79-4fab-86ec-22d0ea1543c0",
             "start": {
-              "sector_size": { "unit": "B", "value": 512 },
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
               "unit": "MiB",
               "value": 1
             },
@@ -38,7 +48,10 @@
             "flags": [],
             "fs_type": "ext4",
             "size": {
-              "sector_size": { "unit": "B", "value": 512 },
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
               "unit": "GiB",
               "value": 10
             },
@@ -46,7 +59,10 @@
             "mountpoint": "/",
             "obj_id": "d712357f-97cc-40f8-a095-24ff244d4539",
             "start": {
-              "sector_size": { "unit": "B", "value": 512 },
+              "sector_size": {
+                "unit": "B",
+                "value": 512
+              },
               "unit": "MiB",
               "value": 514
             },
@@ -57,14 +73,18 @@
         ],
         "disk_encryption": {
           "encryption_type": "luks",
-          "partitions": ["d712357f-97cc-40f8-a095-24ff244d4539"]
+          "partitions": [
+            "d712357f-97cc-40f8-a095-24ff244d4539"
+          ]
         },
         "wipe": true
       }
     ]
   },
   "hostname": "vgevorgyan",
-  "kernels": ["linux"],
+  "kernels": [
+    "linux"
+  ],
   "locale_config": {
     "kb_layout": "us",
     "sys_enc": "UTF-8",
@@ -82,15 +102,17 @@
       "custom_settings": {
         "Sway": {
           "seat_access": "polkit"
-      },
-        "details": ["Sway"],
+        },
+        "details": [
+          "Sway"
+        ],
         "main": "Desktop"
+      }
     }
-  }
-  }, 
-    "skip_ntp": true,
-    "skip_version_check": false,
-    "uki": false,
+  },
+  "skip_ntp": true,
+  "skip_version_check": false,
+  "uki": false,
   "no_pkg_lookups": false,
   "swap": true,
   "timezone": "Asia/Yerevan"
