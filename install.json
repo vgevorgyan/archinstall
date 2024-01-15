@@ -86,10 +86,11 @@
         "details": ["Sway"],
         "main": "Desktop"
     }
-  },
+  }
+  }, 
     "skip_ntp": true,
     "skip_version_check": false,
-    "uki":false,
+    "uki": false,
   "no_pkg_lookups": false,
   "swap": true,
   "timezone": "Asia/Yerevan"
