@@ -85,7 +85,7 @@
       },
         "details": ["Sway"],
         "main": "Desktop"
-    },
+    }
   },
     "skip_ntp": true,
     "skip_version_check": false,
